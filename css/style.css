@@ -73,6 +73,10 @@ body{
     font-size: 1.5rem;
 }
 
+.angle_up{
+    align-self: center;
+}
+
 .mute,
 .stop{
     text-align: center;
@@ -85,11 +89,6 @@ body{
 }
 
 .main_menu > i{
-    font-size: 1rem;
-}
-
-
-.left_menu > i{
     font-size: 1rem;
 }
 
