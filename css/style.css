@@ -10,23 +10,56 @@
     display: flex;
 }
 
+.user{
+    font-size: 0.75rem;
+    background-color: gray;
+    padding: 0.25rem;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 7px;
+}
+
+body{
+    color: white;
+}
+
 /* #endregion Common */
 
-.container{
+/* region Utility */
+
+
+/* endregion Utility */
+
+/* #region Main */
+
+#site_main{
     height: 100vh;
     width: 100vw;
     background-color: black;
 }
 
-.view{
-    justify-content: flex-end;
-}
-
 .speaker_view,
 .expand{
-    color: white;
     background-color: gray;
     padding: 0.25rem;
     border-radius: 5px;
     margin: 10px 3px;
 }
+
+.view{
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
+}
+
+.cam{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card{
+    position: relative;
+    margin: 0.5rem 0.25rem;
+}
+
+/* #endregion Main */
