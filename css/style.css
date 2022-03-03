@@ -1,5 +1,32 @@
+/* #region Common */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+/* #endregion Common */
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.view{
+    justify-content: flex-end;
+}
+
+.speaker_view,
+.expand{
+    color: white;
+    background-color: gray;
+    padding: 0.25rem;
+    border-radius: 5px;
+    margin: 10px 3px;
 }
