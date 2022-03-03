@@ -97,4 +97,14 @@ body{
     color: limegreen;
 }
 
+.end_meeting{
+    height: 60px;
+    width: 100px;
+    color: red;
+    background-color: #4A4A4A;
+    text-align: center;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
 /* #endregion Footer */
