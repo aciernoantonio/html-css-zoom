@@ -25,15 +25,10 @@ body{
 
 /* #endregion Common */
 
-/* region Utility */
-
-
-/* endregion Utility */
-
 /* #region Main */
 
 #site_main{
-    height: 100vh;
+    height: calc(100vh - 60px);
     width: 100vw;
     background-color: black;
 }
@@ -63,3 +58,30 @@ body{
 }
 
 /* #endregion Main */
+
+/* #region Footer */
+
+.navbar{
+    height: 60px;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar i{
+    font-size: 1.5rem;
+}
+
+.mute,
+.stop{
+    text-align: center;
+    margin-left: 1rem;
+}
+
+
+.left_menu > i{
+    font-size: 1rem;
+}
+
+/* #endregion Footer */
