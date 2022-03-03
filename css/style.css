@@ -79,9 +79,22 @@ body{
     margin-left: 1rem;
 }
 
+.main_menu > div{
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.main_menu > i{
+    font-size: 1rem;
+}
+
 
 .left_menu > i{
     font-size: 1rem;
+}
+
+.green{
+    color: limegreen;
 }
 
 /* #endregion Footer */
